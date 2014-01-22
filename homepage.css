@@ -1,0 +1,207 @@
+/*
+center tweets
+make div clickable
+make whole page same width
+switch map and text boxs and center them
+*/
+html {
+        font-family: 'Raleway';
+        background-color: #EBDCC0;
+        margin-top: 2em;
+}
+
+#content {
+        margin-top: 1em;
+        clear:both;
+}
+
+body {
+        width:80%;
+        margin:auto;
+}
+
+h1 {
+        font-family: 'Lobster', cursive;
+        display: inline;
+        margin-left: 1.5em;
+        color:#F25252;
+        font-size: 2.8em
+}
+
+input {
+        display: inline;
+}
+
+#logout {
+        float: right;
+        text-decoration: none;
+        padding: 0.75em;
+        margin-right: 50px;
+        border-radius: .7em;
+        background-color: #3B3340;
+        color: #F25252;
+        font-size: 1.1em;
+        border: 2px solid #01A296;
+}
+
+#logout:hover {
+        color:white;
+}
+
+.tweet > a {
+        float:right;
+}
+
+#submit {
+        overflow: hidden;
+        display: none;
+        margin-bottom: 1.5em;
+        /*margin-left: 1em;*/
+        width: 780px;
+        margin-right: auto;
+        margin-left: auto;
+}
+
+#submitTweet { 
+        background-color: #3B3340; 
+        color: #F25252;
+        border-radius: .5em;
+        margin-left: 3.5em;
+        /*margin-top: 1.5em;*/
+        font-family: 'Raleway';
+        font-size: 1.1em;
+        border: 2px solid #01A296;
+        padding: 0.5em;
+}
+
+#submitTweet:hover {
+        cursor: pointer;
+        border: 2px solid #01A2A6;
+        color:white;
+}
+
+#seeAll {
+        font-family: 'Raleway';
+        text-decoration: none;
+        padding: .5em;
+        border-radius: .7em;
+        background-color: #3B3340;
+        color: #F25252;
+        font-size: 1.1em;
+        border: 2px solid #01A296;
+        margin-left: 9em;
+        /*clear:both;*/
+        float:left;
+        margin-bottom: 2em;
+}
+
+#seeAll:hover {
+        color:white;
+        cursor: pointer;
+}
+
+#contentSub {
+        border: 3px solid #3B3340;
+        border-radius: .5em;
+        margin: auto;
+        background-color: #3B3340;
+        padding: 0;
+        width: 95%;
+}
+
+#contentSub > p:hover {
+        color:white;
+}
+
+#contentSub > p {
+        cursor: pointer;
+        padding-bottom: 1em;
+        padding-top: 1em;
+        margin:0;
+        color:#F25252;
+        font-size: 1.5em;
+        text-align: center;
+}
+
+#map-canvas {
+        height: 250px;
+        width: 400px;
+        float: left;
+        margin-bottom: 2em;
+        /*margin-left: 3em;*/
+}
+
+#maincontent {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#map {
+        float: right;
+        margin: 20px;
+        margin-top: 2px;
+        width: 500px;
+        /*margin-right: 40px;*/
+        height: 400px;
+}
+
+#word, #lat, #lon {
+        display:block;
+        margin-bottom: 1.5em;
+        margin-left: 1em;
+        margin-top: .5em;
+}
+
+#tweetSect {
+        width:45%;
+        /*float:left;*/
+}
+
+#information {
+        /*margin-top:3em;*/
+        margin-left: 5em;
+        display: inline-block;
+        color:#FFFFA6;
+}
+
+input {
+        font-family: 'Raleway';
+        font-size: 1em;
+}
+
+.tweet {
+        color:#01A2A6;
+        border:3px solid #3B3340;
+        margin:1em;
+        padding:1em;
+        border-radius: .5em;
+        background-color: #3B3340;
+        font-size: 1.2em;
+        margin-right: 0;
+        margin-left: 40px;
+}
+
+.tweet > span {
+        display: block;
+        margin-left: 1em;
+        color:#2BE3CB;
+        padding-top: .8em;
+}
+
+.username {
+        color:#F25252;
+}
+
+.tweet > a {
+        text-decoration: none;
+}
+
+.tweet > a:hover {
+        color:white;
+}
+
+
+
+
+

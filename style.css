@@ -1,0 +1,115 @@
+body {
+	background-color: #EBDCC0;
+	color: #36494A;
+	font-family: "Raleway";
+}
+
+#new {
+	display: inline-block;
+	width:20em;
+	margin-right: 2em;
+	margin-left: 2em;
+	background-color: #3B3340;
+	border: 1px solid #3B3340;
+	border-radius: 1em;
+	color: #FFFFA6;
+	padding-left: 1.5em;
+	padding-bottom: 1em;
+}
+
+#form {
+	float:left;
+	margin-right: 2em;
+	margin-left: 8em;
+	width: 22em;
+	background-color: #3B3340;
+	border: 1px solid #3B3340;
+	border-radius: 1em;
+	color: #FFFFA6;
+	padding-left: 1.5em;
+	padding-bottom: 1em;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+	color:#F25252;
+	margin: 0.4em;
+	margin-left: 3.2em;
+}
+
+h2 {
+	font-size: 18pt;
+	color:#01A2A6;
+}
+
+#fail {
+	color: #F25252;
+}
+
+input {
+	font-family: "Raleway";
+	font-size: 1em;
+	display: block;
+	margin-left: 1.5em;
+	margin-top: .5em;
+}
+
+.buttons {
+	font-family: "Raleway";
+	text-decoration: none;
+	padding: .5em;
+	border-radius: .7em;
+	background-color: #3B3340;
+	color: #F25252;
+	font-size: 1.1em;
+	border: 2px solid #01A296;
+	display: block;
+	margin-top: 1.5em;	
+	float: right;
+	margin-right: 2em;
+}
+
+.buttons:hover {
+	color:white;
+	cursor: pointer;
+}
+
+#loginform > p {
+	margin-top: 1em;
+}
+
+#created {
+	margin-left: 5.5em;
+	font-size: 1.5em;
+	color: #F25252;
+}
+
+#fail > p {
+	margin-left: 5em;
+	font-size: 1.5em;
+}
+
+#fail > h2 {
+	margin-left: 5em;
+
+}
+
+#failButton {
+	font-family: "Raleway";
+	text-decoration: none;
+	padding: .5em;
+	border-radius: .7em;
+	background-color: #3B3340;
+	color: #F25252;
+	font-size: 1.1em;
+	border: 2px solid #01A296;
+	display: block;
+	margin-top: 1.5em;	
+	margin-left: 10em;
+}
+
+#failButton:hover {
+	color:white;
+	cursor: pointer;
+}

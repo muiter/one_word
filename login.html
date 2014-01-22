@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Matthew Muiter" />
+        <title>WordPlace</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel='stylesheet' type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>WordPlace</h1>
+        </header>
+        
+        <div id="form">
+            <h2>Log In</h2>
+            <form id="loginform" action="login.php" method="post">
+                <p>User Name:</p><input name="name" type="text" />
+                <p>Password:</p><input name="password" type="password" />
+                <input class="buttons" type="submit" value="Log in" />
+            </form>
+        </div>
+        <div id="new">
+            <h2>Create a new account</h2>
+            <form action="makeaccount.php" method="post">
+                <p>User Name:</p><input type="text" name="newusername" />
+                <p>Password:</p><input type="password" name="newpassword" />
+                <p>Retype password:</p><input type="password" name="newpasswordcheck" />
+                <input class="buttons" type="submit" value="Submit" />
+            </form>
+        </div>
+    </body>
+</html>

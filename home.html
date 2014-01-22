@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <meta charset="utf-8" />
+        <title>OneWord | Home</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+        <script src="submitsect.js" type="text/javascript"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        <script src="getTweets.js" type="text/javascript"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="homepage.css" type="text/css" />
+    </head>
+    <body>
+        <h1>Welcome to WordPlace!</h1>
+        <a id="logout" href="logout.php">Logout</a>        
+        <div id="content">
+            <div id ="contentSub">
+                <p>Submit a Tweet & Location</p>
+                <div id="submit" hidden="hidden" >
+                    <div id="map-canvas"></div>
+                    <div id="information">
+                        Your Tweet <input type="text" id="word" placeholder="Description" name="tweet!" />
+                        Your Latitude <input type="text" id="lat" placeholder="Drop a pin" name="lat" />
+                        Your Longitude<input type="text" id="lon" placeholder="Drop a pin" name="lon" />
+                        <button id="submitTweet">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div id="maincontent">
+                <div id="map"></div>
+                <div id="tweetSect"></div>
+                <button id="seeAll" hidden="hidden">See All Tweets</button>
+            </div>
+        </div>
+    </body>
+</html>
